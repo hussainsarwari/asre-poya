@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer.jsx";
 
 // ایمپورت فونت محلی Yekan Bakh
 const yekanBakh = localFont({
-  src: "/public/fonts/myFont.ttf",
+  src: "/fonts/myFont.ttf",
   variable: "--font-yekan", // برای استفاده در Tailwind
   display: "swap",
 });
