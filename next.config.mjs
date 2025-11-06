@@ -4,7 +4,7 @@ const nextConfig = {
   reactCompiler: true,
     output: 'export',
      images: {
-    unoptimized: true, // 👈 این خط مشکل را حل می‌کند
+    unoptimized: true, 
   },
 };
 
