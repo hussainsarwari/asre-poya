@@ -4,7 +4,7 @@ import Header from "./components/header/Header.jsx";
 import { LanguageProvider } from "./provider/languageProvider";
 import localFont from "next/font/local";
 import Footer from "./components/footer/Footer.jsx";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // ایمپورت فونت محلی Yekan Bakh
 const yekanBakh = localFont({
   src: "../public/fonts/myfont.ttf",
