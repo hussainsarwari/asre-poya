@@ -10,12 +10,13 @@ export default function ContactUs() {
   const { t } = useLanguage();
 
   return (
-    <div className="flex flex-col gap-8 px-4 py-8 mx-auto my-20 max-w-7xl" dir="rtl">
+    <div className="flex flex-col gap-8  mx-auto my-[142px]  w-[1056px] " dir="rtl">
       {/* عنوان */}
-      <h2 className="text-4xl font-bold">{t("contactus")}</h2>
-      <p className="text-[#1E1E2B99]">{t("contactustext")}</p>
+      <h2 className="text-[32px] font-bold text-[#1E1E2B]">{t("contactus")}</h2>
+      <p className="text-[#1E1E2B99] text-[14px] ">{t("contactustext")}</p>
 
       {/* کانتینر نقشه و اطلاعات تماس */}
+   
       <div className="flex flex-col-reverse lg:flex-row-reverse gap-8 bg-[#1E1E2B08] p-4 rounded-2xl lg:h-[22em]">
         
         {/* Google Map */}
@@ -32,11 +33,11 @@ export default function ContactUs() {
 
         {/* Contact Info */}
         <div className="w-full lg:w-[65%] flex flex-col gap-4 lg:gap-6 overflow-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold border-b border-[#1E1E2B33] p-5">
+          <h2 className="text-[16px] md:text-[20px] lg:text-[24px] font-semibold border-b border-[#1E1E2B33] m-5 pb-5">
             {t("contactuswithasrepoya")}
           </h2>
 
-          <div className="flex flex-col gap-4 md:gap-14">
+          <div className="flex flex-col gap-4 px-5 md:gap-14">
             {/* Location */}
             <div className="flex items-center gap-3">
               <Image src={location} alt="location" width={24} height={24} />

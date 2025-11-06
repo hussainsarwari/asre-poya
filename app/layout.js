@@ -31,6 +31,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="af">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${yekanBakh.variable} font-yekan antialiased min-h-screen flex flex-col`}
       >
